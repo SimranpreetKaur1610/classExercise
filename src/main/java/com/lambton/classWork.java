@@ -61,7 +61,12 @@ public class classWork
                 System.out.println(x);
             }
         }
-
+        System.out.print("\nSum of all elements in Array: ");
+        int sum = 0;
+        for(int x: myArray){
+            sum += x;
+        }
+        System.out.println(sum);
 
     }
 }
