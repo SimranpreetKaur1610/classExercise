@@ -46,8 +46,21 @@ public class classWork
         for (int x : myArray) {
             System.out.print(x + "  ");
         }
+        System.out.println("\n\nOdd elements in the Array : ");
+        for(int x: myArray){
+            if(x % 2 != 0){
+                System.out.println(x);
+            }
+        }
 
-
+        System.out.println("\nEven elements in Array:");
+        for(int x: myArray)
+        {
+            if(x % 2 == 0)
+            {
+                System.out.println(x);
+            }
+        }
 
     }
 }
